@@ -1,4 +1,6 @@
+
 #include <iostream>
+
 
 // count function should go here
 unsigned int count(const std::string& str) {
@@ -13,6 +15,9 @@ unsigned int count(const std::string& str) {
             on_space = false;
         }
     }
+int count(const std::string& phrase) {
+    return 0;
+}
 
     return counter;
 }
